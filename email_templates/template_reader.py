@@ -4,10 +4,10 @@ class TemplateReader:
 
     def read_course_template(self,course_name):
         try:
-            if (course_name=='DataScienceMasters'):
+            if (course_name=='Computer Engineering'):
                 email_file = open("email_templates/DSM_Template.html", "r")
                 email_message = email_file.read()
-            elif (course_name=='MachineLearningMasters'):
+            elif (course_name=='Mechanical Engineering'):
                 email_file = open("email_templates/MLM_Template.html", "r")
                 email_message = email_file.read()
             elif (course_name == 'DeepLearningMasters'):
